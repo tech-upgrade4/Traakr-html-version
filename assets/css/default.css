@@ -345,3 +345,51 @@ textarea {
   }
 
 }
+
+@media screen and (max-width: 900px) {
+  .intro-div {
+    display: inline;
+  }
+
+  .intro-picture-div {
+    width: 90%;
+    height: 340px;
+  }
+
+  .product-image {
+    width: 100%;
+    height: 56px;
+  }
+
+  .summery-div {
+    padding: 50px;
+    display: inline;
+  }
+
+  .summery-picture-div {
+    width: 80%;
+    height: 263px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    display: block;
+  }
+
+  .about-inside-div{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .our-info-div {
+    display: inline;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .footer-about-div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}

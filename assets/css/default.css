@@ -13,7 +13,7 @@ p, h1, h2, h3, h4, h5, h6, ul, body, a {
 
 button {
   height: 30px;
-  width: 200px;
+  width: 192px;
   border: none;
   color: white;
   background-color: rgb(53, 156, 53);
@@ -126,15 +126,22 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.products-form{
+  display: grid;
+  grid-template-columns: 65% 35%;
+  column-gap: 10px;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
 .contents-form, .contact-us-form {
-  margin-top: 30px;
-  margin-bottom: 30px;
   padding-bottom: 16px;
   border: solid 1px black;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  
 }
 
 .product-images-div {
@@ -148,8 +155,10 @@ a:hover {
 }
 
 .product-image {
-  width: 327px;
-  height: 180px;
+  width: 100%;
+  height: 230px;
+  background-position: center;
+  mask-image: cover;
   border: solid 1px lime;
   border-radius: 3px;
   opacity: 0.92;
@@ -184,6 +193,12 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 10px;
+}
+
+.contents-info-div {
+  border: solid 1px grey;
+  padding: 10px;
+  height: 430px;
 }
 
 .summery-div {
@@ -297,7 +312,7 @@ textarea {
 }
 
 .footer-about-div {
-  background-image: url(../images/android6.jpg);
+  background-image: url(../images/picture4.jpg);
   background-position: center;
   background-size:auto;
   opacity: 0.86;
@@ -352,6 +367,13 @@ textarea {
     box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.75);
+  }
+
+  .products-form{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
   }
 
   .product-image {

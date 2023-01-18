@@ -376,12 +376,34 @@ textarea {
     width: 95%;
   }
 
+  .contents-div {
+    margin-top: 30px;
+    display: block;
+  }
+
+  .contents-form {
+    margin-bottom: 12px;
+  }
+
   .product-image {
     width: 100%;
     height: 56px;
     border-radius: 3px;
     opacity: 0.92;
     mask-image: inherit;
+  }
+
+  button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  .contents-info-div {
+    margin-top: 8px;
+    padding: 8px;
+    height: auto;
   }
 
   .summery-div {
@@ -410,6 +432,19 @@ textarea {
     display: inline;
     margin-top: 30px;
     margin-bottom: 40px;
+  }
+
+  .samples {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
+    padding: 0px;
+  }
+  
+  .sample-image {
+    width: 96%;
+    margin-bottom: 15px;
   }
 
   .footer-about-us-paragraph {

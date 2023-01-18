@@ -145,24 +145,21 @@ a:hover {
 }
 
 .product-images-div {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: max-content;
-  column-gap: 10px;
-  row-gap: 10px;
-  padding: 5px;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: rgb(202, 202, 202);
 }
 
 .product-image {
-  width: 100%;
-  height: 230px;
-  background-position: center;
-  mask-image: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
   border: solid 1px lime;
   border-radius: 3px;
   opacity: 0.92;
-  mask-image: inherit;
   transition: opacity 0.15s;
 
   box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.75);
@@ -357,20 +354,14 @@ textarea {
   }
 
   .intro-picture-div {
-    background-image: url("../images/picture1.jpg");
-    background-position: center;
     width: 90%;
     height: 260px;
     border-radius: 5px;
     margin-left: 3px;
-  
-    box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.75);
   }
 
   .products-form{
-    display: inline;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 95%;
@@ -385,19 +376,19 @@ textarea {
     margin-bottom: 12px;
   }
 
-  .product-image {
-    width: 100%;
-    height: 56px;
-    border-radius: 3px;
-    opacity: 0.92;
-    mask-image: inherit;
-  }
-
   button{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
+  }
+
+  .product-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
   }
 
   .contents-info-div {
@@ -481,8 +472,11 @@ textarea {
   }
 
   .product-image {
-    width: 100%;
-    height: 56px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
   }
 
   .summery-div {

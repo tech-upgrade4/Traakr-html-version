@@ -1,0 +1,25 @@
+
+
+.heading1-help {
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.order-instruction-section {
+  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.ordering-instructions {
+  margin: 6px;
+}
+
+.order-instruction-div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  border: solid 1px grey;
+  padding: 16px;
+}

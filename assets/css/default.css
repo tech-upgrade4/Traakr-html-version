@@ -48,6 +48,8 @@ header {
   padding-right: 22px;
   padding-top: 6px;
   padding-bottom: 6px;
+  position: fixed;
+  width: 100%;
 }
 
 .logo {
@@ -315,18 +317,14 @@ textarea {
   opacity: 0.86;
 }
 
-.footer-about-us-paragraph {
-  width: 260px;
-  font-size: large;
-  margin-left: 304px;
-  text-align: center;
-  font-weight: bolder;
-  color: rgb(255, 255, 255);
-}
-
-.footer-about-div, .footer-contact-details-div {
-  background-color: rgb(184, 184, 184);
-  padding: 14px;
+.footer-navigator {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  margin-bottom: 24px;
 }
 
 .contact-details-div {
@@ -348,9 +346,12 @@ textarea {
   .intro-h3_1, .intro-h3_2 {
     display: block;
     width: 85%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-left: 10px;
-    font-size: 34px;
+  }
+
+  .intro-h3_1 {
+    margin-top: 90px;
   }
 
   .intro-picture-div {
@@ -438,11 +439,16 @@ textarea {
     margin-bottom: 15px;
   }
 
-  .footer-about-us-paragraph {
-    width: 260px;
-    font-size: large;
-    margin-left: 40px;
-    text-align: center;
+  .footer-navigator {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    margin-bottom: 24px;
+  }
+
+  .footer-contact-details-div, .help-navigator, .shop-navigator {
+    margin-bottom: 50px;
   }
 
   .footer-about-div {
